@@ -1,8 +1,7 @@
 import 'package:chatview/chatview.dart';
 
 class Data {
-  static const profileImage =
-      "https://raw.githubusercontent.com/SimformSolutionsPvtLtd/flutter_showcaseview/master/example/assets/simform.png";
+  static const profileImage = "https://i.imgur.com/7LrpA13.jpg";
   static final messageList = [
     Message(
       id: '1',
@@ -44,14 +43,14 @@ class Data {
       id: '6',
       message: "When to go ?",
       createdAt: DateTime.now(),
-      sendBy: '3',
+      sendBy: '2',
       status: MessageStatus.read,
     ),
     Message(
       id: '7',
       message: "I guess Simform will reply",
       createdAt: DateTime.now(),
-      sendBy: '4',
+      sendBy: '2',
       status: MessageStatus.read,
     ),
     Message(
@@ -60,8 +59,10 @@ class Data {
       createdAt: DateTime.now(),
       sendBy: '2',
       reaction: Reaction(
-        reactions: ['\u{2764}', '\u{1F44D}', '\u{1F44D}'],
-        reactedUserIds: ['2', '3', '4'],
+        reactions: ['\u{2764}'],
+        reactedUserIds: [
+          '2',
+        ],
       ),
       status: MessageStatus.read,
       replyMessage: const ReplyMessage(
@@ -80,10 +81,8 @@ class Data {
       reaction: Reaction(
         reactions: [
           '\u{2764}',
-          '\u{2764}',
-          '\u{2764}',
         ],
-        reactedUserIds: ['2', '3', '4'],
+        reactedUserIds: ['2'],
       ),
     ),
     Message(
@@ -93,8 +92,8 @@ class Data {
       createdAt: DateTime.now(),
       sendBy: '1',
       reaction: Reaction(
-        reactions: ['\u{2764}', '\u{2764}', '\u{2764}', '\u{2764}'],
-        reactedUserIds: ['2', '4', '3', '1'],
+        reactions: ['\u{2764}'],
+        reactedUserIds: ['2'],
       ),
     ),
     Message(

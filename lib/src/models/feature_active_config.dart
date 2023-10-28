@@ -6,6 +6,7 @@ class FeatureActiveConfig {
     this.enableSwipeToSeeTime = true,
     this.enableCurrentUserProfileAvatar = false,
     this.enableOtherUserProfileAvatar = true,
+    this.enableOtherUserName = false,
     this.enableReplySnackBar = true,
     this.enablePagination = false,
     this.enableChatSeparator = true,
@@ -31,6 +32,7 @@ class FeatureActiveConfig {
 
   /// Used for enable/disable other users profile circle.
   final bool enableOtherUserProfileAvatar;
+  final bool enableOtherUserName;
 
   /// Used for enable/disable reply snack bar when user long press on chat-bubble.
   final bool enableReplySnackBar;

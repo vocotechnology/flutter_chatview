@@ -156,6 +156,8 @@ class TextFieldConfiguration {
   /// Default is 1 second.
   final Duration compositionThresholdTime;
 
+  final bool enabledPrefixIcon;
+
   const TextFieldConfiguration({
     this.contentPadding,
     this.maxLines,
@@ -171,6 +173,7 @@ class TextFieldConfiguration {
     this.compositionThresholdTime = const Duration(seconds: 1),
     this.inputFormatters,
     this.textCapitalization,
+    this.enabledPrefixIcon = true,
   });
 }
 

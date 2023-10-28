@@ -29,7 +29,8 @@ class RepliedMessageConfiguration {
   final Color? verticalBarColor;
 
   /// Used to give background color to replied message widget.
-  final Color? backgroundColor;
+  final Color? repliedMyMessageColor;
+  final Color? repliedInComingMessageColor;
 
   /// Used to give text style to reply message.
   final TextStyle? textStyle;
@@ -77,7 +78,8 @@ class RepliedMessageConfiguration {
 
   const RepliedMessageConfiguration({
     this.verticalBarColor,
-    this.backgroundColor,
+    this.repliedInComingMessageColor,
+    this.repliedMyMessageColor,
     this.textStyle,
     this.replyTitleTextStyle,
     this.margin,
